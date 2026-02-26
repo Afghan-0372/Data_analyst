@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+*.parquet
+*.feather
+*.db
+*.sqlite
+*.sqlite3
+data/*.zip
+data/*.gz
+data/raw/*
+
+
+# BI tools
+*.pbix
+*.twb
+*.twbx
+*.tdsx
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temp
+*.log
+*.tmp
